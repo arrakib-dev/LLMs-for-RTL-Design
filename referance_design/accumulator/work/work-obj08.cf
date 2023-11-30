@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/accumulator/" "tb_accumulator_4bit.vhd" "142b00b8bab5f0179583520389c13da718ee2c2f" "20231129163257.642":
+  entity tb_accumulator_4bit at 1( 0) + 0 on 11;
+  architecture behavior of tb_accumulator_4bit at 11( 243) + 0 on 12;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/accumulator/" "accumulator_4bit.vhd" "e7096f34595d1e579e45dae1ecde6bf3d95c71be" "20231129163257.722":
+  entity accumulator_4bit at 1( 0) + 0 on 13;
+  architecture bhv of accumulator_4bit at 13( 272) + 0 on 14;

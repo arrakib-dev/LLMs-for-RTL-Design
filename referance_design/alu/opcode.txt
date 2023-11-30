@@ -1,0 +1,48 @@
+ The logic and arithmetic operations being implemented in the ALU are as follows:
+0. Arithmetic Addition (0000)
+ALU_Out = A + B;
+
+1. Arithmetic Subtraction (0001)
+ALU_Out = A - B;
+
+2. Arithmetic Multiplication
+ALU_Out = A * B;
+
+3. Arithmetic Division
+ALU_Out = A / B;
+
+4. Logical Shift Left
+ALU_Out = A logical shifted left by 1;
+
+5. Logical Shift Right
+ALU_Out = A logical shifted right by 1;
+
+6. Rotate Left
+ALU_Out = A rotated left by 1;
+
+7. Rotate Right
+ALU_Out = A rotated right by 1;
+
+8. Logical AND
+ALU_Out = A AND B;
+
+9. Logical OR
+ALU_Out = A OR B;
+
+10. Logical XOR
+ALU_Out = A XOR B;
+
+11. Logical NOR
+ALU_Out = A NOR B;
+
+12. Logical NAND
+ALU_Out = A NAND B;
+
+13. Logical XNOR
+ALU_Out = A XNOR B;
+
+14. Greater comparison
+ALU_Out = 1 if A > B else 0;
+
+15. Equal comparison
+ALU_Out = 1 A = B else 0;
