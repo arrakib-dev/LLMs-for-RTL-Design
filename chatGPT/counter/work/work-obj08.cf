@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT/counter/" "test_bench_binary_4bit.vhd" "88945f4868515ba3ff365dabcc104dfb848ca025" "20231129114529.306":
+  entity test_bench_binary_4bit at 1( 0) + 0 on 11;
+  architecture tb_arch of test_bench_binary_4bit at 9( 159) + 0 on 12;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT/counter/" "binary_4bit.vhd" "bbe61b78660dc045af04817dbf8da6c97fb05bb3" "20231129114529.388":
+  entity binary_4bit at 1( 0) + 0 on 13;
+  architecture behavioral of binary_4bit at 12( 288) + 0 on 14;

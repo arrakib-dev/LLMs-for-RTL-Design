@@ -1,0 +1,70 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity tb_encoder_8x3 is
+end tb_encoder_8x3;
+
+architecture testbench of tb_encoder_8x3 is
+    -- Constants
+    constant CLK_PERIOD : time := 10 ns;
+
+    -- Signals
+    signal clk : std_logic := '0';
+    signal rst : std_logic := '0';
+    signal d   : std_logic_vector(7 downto 0);
+    signal o   : std_logic_vector(2 downto 0);
+
+    -- Component instantiation
+    component encoder_8x3
+        port(
+            d: in std_logic_vector(7 downto 0);
+            o: out std_logic_vector(2 downto 0)
+        );
+    end component;
+
+begin
+    -- Instantiate the encoder_8x3 component
+    uut: encoder_8x3 port map (d => d, o => o);
+
+    -- Clock process
+    process
+    begin
+        wait for CLK_PERIOD / 2;
+        clk <= not clk;
+    end process;
+
+    -- Stimulus process
+    stimulus: process
+    begin
+        -- Initialize
+        rst <= '1';
+        wait for CLK_PERIOD * 2;
+        rst <= '0';
+
+        -- Test case 1
+        d <= "00000001";
+        wait for CLK_PERIOD;
+        assert o = "000" report "Test Case 1 Failed" severity error;
+
+        -- Test case 2
+        d <= "00000100";
+        wait for CLK_PERIOD;
+        assert o = "001" report "Test Case 2 Failed" severity error;
+
+        -- Test case 3
+        d <= "00011000";
+        wait for CLK_PERIOD;
+        assert o = "010" report "Test Case 3 Failed" severity error;
+
+        -- Test case 4
+        d <= "11111111";
+        wait for CLK_PERIOD;
+        assert o = "111" report "Test Case 4 Failed" severity error;
+
+        -- Add more test cases as needed
+
+        wait;
+    end process;
+
+end testbench;
