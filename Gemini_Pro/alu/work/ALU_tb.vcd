@@ -1,0 +1,55 @@
+$date
+  Wed Dec 13 22:31:23 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module std_logic_arith $end
+$upscope $end
+$scope module std_logic_unsigned $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module alu_tb $end
+$var reg 8 ! a[7:0] $end
+$var reg 8 " b[7:0] $end
+$var reg 4 # alu_sel[3:0] $end
+$var reg 8 $ alu_out[7:0] $end
+$var reg 1 % carryout $end
+$var reg 8 & expected_result[7:0] $end
+$var reg 1 ' expected_carryout $end
+$scope module dut $end
+$var reg 8 ( a[7:0] $end
+$var reg 8 ) b[7:0] $end
+$var reg 4 * alu_sel[3:0] $end
+$var reg 8 + alu_out[7:0] $end
+$var reg 1 , carryout $end
+$var reg 8 - alu_result[7:0] $end
+$var reg 9 . tmp[8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b01110000 !
+bUUUUUUUU "
+b0110 #
+b11100000 $
+X%
+b11100001 &
+0'
+b01110000 (
+bUUUUUUUU )
+b0110 *
+b11100000 +
+X,
+b11100000 -
+bXXXXXXXXX .

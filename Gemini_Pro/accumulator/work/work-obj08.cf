@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/accumulator/" "accumulator_tb.vhd" "6147ed864507427f32118b8475debc25c191d906" "20231213181758.433":
+  entity accumulator_tb at 1( 0) + 0 on 11;
+  architecture tb of accumulator_tb at 8( 126) + 0 on 12;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/accumulator/" "accumulator_4bit.vhd" "e7096f34595d1e579e45dae1ecde6bf3d95c71be" "20231213181758.554":
+  entity accumulator_4bit at 1( 0) + 0 on 13;
+  architecture bhv of accumulator_4bit at 13( 272) + 0 on 14;

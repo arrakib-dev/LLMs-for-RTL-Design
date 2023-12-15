@@ -1,0 +1,10 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/adder/" "fulladder_tb.vhd" "6493dfaf7252c1957cd0acc2a327ef626f9c953e" "20231213143221.628":
+  entity fulladder_tb at 78( 2019) + 0 on 4;
+  architecture test of fulladder_tb at 84( 2105) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/adder/" "fulladder_4bit.vhd" "b948efed7a904b5317c52bba83d3376f47338f71" "20231213143221.628":
+  entity fulladder_4bit at 1( 0) + 0 on 4;
+  architecture withsignals of fulladder_4bit at 13( 259) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/adder/" "fulladder.vhd" "7cf54e9160007062cf19f0a1fc3c37035dd72c6c" "20231213143221.627":
+  entity fulladder at 1( 0) + 0 on 4;
+  architecture withsignals of fulladder at 10( 150) + 0 on 4;

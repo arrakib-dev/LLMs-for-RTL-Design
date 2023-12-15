@@ -1,0 +1,44 @@
+$date
+  Wed Dec 13 22:48:23 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module ram_tb $end
+$var reg 7 ! ram_addr[6:0] $end
+$var reg 8 " ram_data_in[7:0] $end
+$var reg 1 # ram_wr $end
+$var reg 1 $ ram_clock $end
+$var reg 8 % ram_data_out[7:0] $end
+$scope module ram_instance $end
+$var reg 7 & ram_addr[6:0] $end
+$var reg 8 ' ram_data_in[7:0] $end
+$var reg 1 ( ram_wr $end
+$var reg 1 ) ram_clock $end
+$var reg 8 * ram_data_out[7:0] $end
+$comment ram is not handled $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000000 !
+b01010101 "
+1#
+U$
+b01010101 %
+b0000000 &
+b01010101 '
+1(
+U)
+b01010101 *

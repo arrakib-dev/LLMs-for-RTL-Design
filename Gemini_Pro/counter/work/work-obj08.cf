@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/counter/" "tb_binary_4bit.vhd" "c372047ba85799580299507c1e22dd1f142778ec" "20231213150121.712":
+  entity tb_binary_4bit at 153( 4350) + 0 on 13;
+  architecture behavioral of tb_binary_4bit at 160( 4473) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/counter/" "binary_4bit.vhd" "bbe61b78660dc045af04817dbf8da6c97fb05bb3" "20231213150121.632":
+  entity binary_4bit at 1( 0) + 0 on 11;
+  architecture behavioral of binary_4bit at 12( 288) + 0 on 12;
