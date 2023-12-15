@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/counter/" "tb_binary_4bit.vhd" "71dd1a7a3979513dcdcac98d67f5e01b7d29fbcc" "20231128225006.648":
+  entity tb_binary_4bit at 1( 0) + 0 on 13;
+  architecture behavioral of tb_binary_4bit at 6( 89) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/counter/" "binary_4bit.vhd" "562bd8d507c290e273d83d087b49d547d1f110d5" "20231128225006.567":
+  entity binary_4bit at 23( 617) + 0 on 11;
+  architecture behavioral of binary_4bit at 34( 905) + 0 on 12;

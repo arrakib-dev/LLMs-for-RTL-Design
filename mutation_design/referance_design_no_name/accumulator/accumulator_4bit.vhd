@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+ 
+entity somedevice is
+    port(
+        clk, reset : in std_logic;
+        Din : in std_logic_vector(3 downto 0);
+        Q : out std_logic_vector(3 downto 0)
+    );
+end somedevice;
+
+architecture bhv of somedevice is
+    signal tmp: std_logic_vector(3 downto 0);
+    begin
+        process (clk, reset)
+        begin
+            if (reset='1') then
+                tmp <= "0000";
+            elsif rising_edge(clk) then
+
+                tmp <= tmp + Din;
+            end if;
+        end process;
+        Q <= tmp;
+    end bhv;
