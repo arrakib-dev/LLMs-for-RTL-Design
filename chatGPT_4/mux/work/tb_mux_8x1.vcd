@@ -1,0 +1,72 @@
+$date
+  Thu Dec 28 13:24:24 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_mux_8x1 $end
+$var reg 8 ! d[7:0] $end
+$var reg 3 " s[2:0] $end
+$var reg 1 # o $end
+$scope module uut $end
+$var reg 8 $ d[7:0] $end
+$var reg 3 % s[2:0] $end
+$var reg 1 & o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00000000 !
+b000 "
+0#
+b00000000 $
+b000 %
+0&
+#100000000
+b10101010 !
+b10101010 $
+#200000000
+b001 "
+1#
+b001 %
+1&
+#300000000
+b010 "
+0#
+b010 %
+0&
+#400000000
+b011 "
+1#
+b011 %
+1&
+#500000000
+b100 "
+0#
+b100 %
+0&
+#600000000
+b101 "
+1#
+b101 %
+1&
+#700000000
+b110 "
+0#
+b110 %
+0&
+#800000000
+b111 "
+1#
+b111 %
+1&
+#900000000

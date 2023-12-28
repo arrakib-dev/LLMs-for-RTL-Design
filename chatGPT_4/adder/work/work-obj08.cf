@@ -1,0 +1,10 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_4/adder/" "fulladder.vhd" "7cf54e9160007062cf19f0a1fc3c37035dd72c6c" "20231228123639.634":
+  entity fulladder at 1( 0) + 0 on 15;
+  architecture withsignals of fulladder at 10( 150) + 0 on 16;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_4/adder/" "fulladder_4bit.vhd" "b948efed7a904b5317c52bba83d3376f47338f71" "20231228123639.554":
+  entity fulladder_4bit at 1( 0) + 0 on 13;
+  architecture withsignals of fulladder_4bit at 13( 259) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_4/adder/" "fulladder_4bit_tb.vhd" "09a4e21350287332c460dd1f4415bfebf2073967" "20231228123639.459":
+  entity fulladder_4bit_tb at 1( 0) + 0 on 11;
+  architecture tb of fulladder_4bit_tb at 3( 103) + 27 on 12;

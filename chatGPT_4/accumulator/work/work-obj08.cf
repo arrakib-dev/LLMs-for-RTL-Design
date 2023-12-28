@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_4/accumulator/" "tb_accumulator_4bit.vhd" "4426a22be1e0bb46b02c13f66ec4cf6b713591f2" "20231228110746.367":
+  entity tb_accumulator_4bit at 1( 0) + 0 on 11;
+  architecture behavior of tb_accumulator_4bit at 9( 166) + 0 on 12;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_4/accumulator/" "accumulator_4bit.vhd" "e7096f34595d1e579e45dae1ecde6bf3d95c71be" "20231228110746.483":
+  entity accumulator_4bit at 1( 0) + 0 on 13;
+  architecture bhv of accumulator_4bit at 13( 272) + 0 on 14;
