@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/counter/" "binary_4bit_tb.vhd" "f5096b16dbde9895e251fa087e8d649934b03248" "20240209132403.606":
+  entity binary_4bit_tb at 1( 0) + 0 on 13;
+  architecture testbench of binary_4bit_tb at 7( 84) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/counter/" "binary_4bit.vhd" "bbe61b78660dc045af04817dbf8da6c97fb05bb3" "20240209132403.528":
+  entity binary_4bit at 1( 0) + 0 on 11;
+  architecture behavioral of binary_4bit at 12( 288) + 0 on 12;

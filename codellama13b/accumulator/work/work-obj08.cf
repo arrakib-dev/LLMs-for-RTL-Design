@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/accumulator/" "testbench.vhd" "10948c15e03a7d0739a770c5724a3647f5a26f8d" "20240209125722.289":
+  entity testbench at 1( 0) + 0 on 13;
+  architecture testbench of testbench at 8( 103) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/accumulator/" "accumulator_4bit.vhd" "e7096f34595d1e579e45dae1ecde6bf3d95c71be" "20240209125722.201":
+  entity accumulator_4bit at 1( 0) + 0 on 11;
+  architecture bhv of accumulator_4bit at 13( 272) + 0 on 12;

@@ -1,0 +1,10 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/adder/" "fulladder_4bit.vhd" "b948efed7a904b5317c52bba83d3376f47338f71" "20240209130952.424":
+  entity fulladder_4bit at 1( 0) + 0 on 4;
+  architecture withsignals of fulladder_4bit at 13( 259) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/adder/" "fulladder.vhd" "7cf54e9160007062cf19f0a1fc3c37035dd72c6c" "20240209130952.424":
+  entity fulladder at 1( 0) + 0 on 4;
+  architecture withsignals of fulladder at 10( 150) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/adder/" "full_adder_tb.vhd" "95cb9c3715ba59abdc6d1b23369104890f40e70b" "20240209130952.424":
+  entity full_adder_tb at 1( 0) + 0 on 4;
+  architecture testbench of full_adder_tb at 7( 81) + 0 on 4;
