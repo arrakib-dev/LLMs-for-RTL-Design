@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/register/" "tb_register_8bit.vhd" "1297c7affb784c720c2815fa05f67c453b56c1af" "20240209194301.919":
+  entity tb_register_8bit at 1( 0) + 0 on 11;
+  architecture rtl of tb_register_8bit at 8( 79) + 0 on 12;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/register/" "register_8bit.vhd" "efa2b46d1df07541d8f738d063349eb0b0cb6c29" "20240209194302.010":
+  entity register_8bit at 1( 0) + 0 on 13;
+  architecture proc of register_8bit at 11( 220) + 0 on 14;

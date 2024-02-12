@@ -1,0 +1,25 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/risc_cpu/" "tb_MIPS_VHDL.vhd" "8cb818c909e8e47ddf88563650e1aa5a0815e31f" "20240211181415.367":
+  entity tb_mips_vhdl at 1( 0) + 0 on 4;
+  architecture behavior of tb_mips_vhdl at 9( 268) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/risc_cpu/" "register_file_VHDL.vhd" "991da97eebbb61001174ddc08b13101855d2b130" "20240211181415.367":
+  entity register_file_vhdl at 1( 0) + 0 on 4;
+  architecture behavioral of register_file_vhdl at 18( 553) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/risc_cpu/" "control_unit_VHDL.vhd" "04902292b62dd5a809ab785a9050dfc6a68f85d8" "20240211181415.367":
+  entity control_unit_vhdl at 1( 0) + 0 on 4;
+  architecture behavioral of control_unit_vhdl at 13( 366) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/risc_cpu/" "MIPS_VHDL.vhd" "3e86bf292517d5c99e25ab691ec011db1f644c2d" "20240211181415.367":
+  entity mips_vhdl at 1( 0) + 0 on 4;
+  architecture behavioral of mips_vhdl at 13( 328) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/risc_cpu/" "Instruction_Memory_VHDL.vhd" "b8a758fcee2b65dc5a4dedd71f18aaec4cf4fa8f" "20240211181415.366":
+  entity instruction_memory_vhdl at 1( 0) + 0 on 4;
+  architecture behavioral of instruction_memory_vhdl at 12( 295) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/risc_cpu/" "Data_Memory_VHDL.vhd" "ff6cec83e06f91a038ca8d9b97d62d5392786710" "20240211181415.366":
+  entity data_memory_vhdl at 1( 0) + 0 on 4;
+  architecture behavioral of data_memory_vhdl at 15( 396) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/risc_cpu/" "ALU_VHDL.vhd" "cf0c5f6d8cfc82d7fdb4f4c3ccb3819707bcdecf" "20240211181415.366":
+  entity alu_vhdl at 1( 0) + 0 on 4;
+  architecture behavioral of alu_vhdl at 14( 386) + 0 on 4;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/risc_cpu/" "ALU_Control_VHDL.vhd" "cc2b2292ce2dd17929f04489054ca60c1563e49c" "20240211181415.366":
+  entity alu_control_vhdl at 1( 0) + 0 on 4;
+  architecture behavioral of alu_control_vhdl at 12( 296) + 0 on 4;

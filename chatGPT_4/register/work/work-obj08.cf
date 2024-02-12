@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_4/register/" "tb_register_8bit.vhd" "61f83f6d8fcab2910b9258bd8f2387492f5ccbe6" "20240210171952.220":
+  entity tb_register_8bit at 1( 0) + 0 on 13;
+  architecture behavior of tb_register_8bit at 9( 259) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_4/register/" "register_8bit.vhd" "efa2b46d1df07541d8f738d063349eb0b0cb6c29" "20240210171952.154":
+  entity register_8bit at 1( 0) + 0 on 11;
+  architecture proc of register_8bit at 11( 220) + 0 on 12;

@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_3_5/shift_reg/" "testbench_shiftreg.vhd" "c5df1f06d33cc80059f7cb39c88f614afd83ec56" "20240210174441.488":
+  entity testbench_shiftreg at 1( 0) + 0 on 11;
+  architecture tb_arch of testbench_shiftreg at 7( 98) + 0 on 12;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_3_5/shift_reg/" "shift_reg_8bit.vhd" "e8e6ffef92994cece8fc15285c00747190bd3aa1" "20240210174441.581":
+  entity shiftreg at 1( 0) + 0 on 13;
+  architecture proc of shiftreg at 12( 250) + 0 on 14;

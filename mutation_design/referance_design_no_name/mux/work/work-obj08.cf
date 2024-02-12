@@ -1,7 +1,0 @@
-v 4
-file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/mux/" "tb_mux_8x1.vhd" "acdc844e8a712fe78c26b24a91e3d4dac074a95c" "20231129144025.427":
-  entity tb_mux_8x1 at 2( 36) + 0 on 11;
-  architecture tb of tb_mux_8x1 at 9( 141) + 4 on 12;
-file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/mux/" "mux_8x1.vhd" "8f2f73b33e24d929f50741edf1ba53b607d3245b" "20231129144025.527":
-  entity mux_8x1 at 1( 0) + 0 on 13;
-  architecture mux of mux_8x1 at 12( 212) + 0 on 14;

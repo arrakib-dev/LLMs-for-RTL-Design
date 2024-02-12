@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/register/" "register_8bit_tb.vhd" "0357bfb74608a09e27c001179e9ead1caba8610d" "20240210171333.879":
+  entity register_8bit_tb at 1( 0) + 0 on 13;
+  architecture behavior of register_8bit_tb at 6( 93) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/register/" "register_8bit.vhd" "efa2b46d1df07541d8f738d063349eb0b0cb6c29" "20240210171333.809":
+  entity register_8bit at 1( 0) + 0 on 11;
+  architecture proc of register_8bit at 11( 220) + 0 on 12;

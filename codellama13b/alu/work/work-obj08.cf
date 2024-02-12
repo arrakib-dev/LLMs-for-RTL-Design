@@ -1,7 +1,7 @@
 v 4
-file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_4/alu/" "ALU_tb.vhd" "07627af2d6abfe95ad25e15a3e1731e8a1cbf3a8" "20231228130041.441":
-  entity alu_tb at 1( 0) + 0 on 11;
-  architecture behavior of alu_tb at 6( 136) + 1 on 12;
-file "/home/rakib/Documents/LLMs-for-RTL-Design/chatGPT_4/alu/" "ALU.vhd" "0a778a39482269b19986058a22a6105af2a9b01a" "20231228130041.543":
-  entity alu at 1( 0) + 0 on 13;
-  architecture behavioral of alu at 18( 516) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/alu/" "alu_tb.vhd" "230fd0c3279ca8e376a28ff23b19aa80398d65aa" "20240211001341.054":
+  entity alu_tb at 1( 0) + 0 on 13;
+  architecture testbench of alu_tb at 7( 74) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/alu/" "ALU.vhd" "0a778a39482269b19986058a22a6105af2a9b01a" "20240211001340.864":
+  entity alu at 1( 0) + 0 on 11;
+  architecture behavioral of alu at 18( 516) + 0 on 12;

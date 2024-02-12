@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/register/" "register_8bit_tb.vhd" "24247f3bb8e1d54d695e85f8d3440c8560a573a5" "20240210171627.768":
+  entity register_8bit_tb at 1( 0) + 0 on 13;
+  architecture testbench of register_8bit_tb at 7( 84) + 0 on 14;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/codellama13b/register/" "register_8bit.vhd" "efa2b46d1df07541d8f738d063349eb0b0cb6c29" "20240210171627.703":
+  entity register_8bit at 1( 0) + 0 on 11;
+  architecture proc of register_8bit at 11( 220) + 0 on 12;

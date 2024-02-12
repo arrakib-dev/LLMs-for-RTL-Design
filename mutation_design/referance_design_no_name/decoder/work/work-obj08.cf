@@ -1,7 +1,0 @@
-v 4
-file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/decoder/" "tb_decoder_3x8.vhd" "16e0379e764ee3c6441f776a815ab65cf5b1f6cc" "20231129121633.750":
-  entity tb_decoder_3x8 at 1( 0) + 0 on 11;
-  architecture beh of tb_decoder_3x8 at 7( 90) + 1 on 12;
-file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/decoder/" "decoder_3x8.vhd" "0d6d78e430cc08c4b1d2e0cedcdb090b9033c925" "20231129121633.834":
-  entity decoder_3x8 at 1( 0) + 0 on 13;
-  architecture decoder of decoder_3x8 at 11( 190) + 0 on 14;

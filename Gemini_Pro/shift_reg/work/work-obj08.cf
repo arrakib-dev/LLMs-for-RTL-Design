@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/shift_reg/" "shiftreg_tb.vhd" "85802e8f1df092a600c9a1a27c74b9ddb6d26272" "20240210180359.805":
+  entity shiftreg_tb at 1( 0) + 0 on 11;
+  architecture behavior of shiftreg_tb at 7( 72) + 0 on 12;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/Gemini_Pro/shift_reg/" "shift_reg_8bit.vhd" "e8e6ffef92994cece8fc15285c00747190bd3aa1" "20240210180359.887":
+  entity shiftreg at 1( 0) + 0 on 13;
+  architecture proc of shiftreg at 12( 250) + 0 on 14;

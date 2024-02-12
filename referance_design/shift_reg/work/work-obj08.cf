@@ -1,0 +1,7 @@
+v 4
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/shift_reg/" "tb_register_8bit.vhd" "f25c635d6d32c4c7b77bc20b86f42f14384985fb" "20240209195717.784":
+  entity tb_shift_reg at 1( 0) + 0 on 11;
+  architecture rtl of tb_shift_reg at 8( 75) + 0 on 12;
+file "/home/rakib/Documents/LLMs-for-RTL-Design/referance_design/shift_reg/" "shift_reg_8bit.vhd" "e8e6ffef92994cece8fc15285c00747190bd3aa1" "20240209195717.870":
+  entity shiftreg at 1( 0) + 0 on 13;
+  architecture proc of shiftreg at 12( 250) + 0 on 14;
